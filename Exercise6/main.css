@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+html * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background: skyblue;
+    padding: 200px;
+}
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+section {
+    width: 100%;
+}
+.image {
+    margin: 30px;
+    
+}
+
+.box1 {
+    background-image: url(background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+.box1 h1 {
+    margin-top: 180px;
+    text-align: center;
+} 
+
+
+.box2 {
+    background: #fff;
+    width: 50%;
+    height: 500px;
+    float: right;
+}
+
+.Buttons {
+    display: block;
+    float: right;
+    margin: 30px;
+}
+
+.button-left {
+    background-color: gray;
+    border-top-left-radius: 2in;
+    border-bottom-left-radius: 2in;
+    text-decoration: none;
+    margin-right:-6px;
+    padding: 4px;
+}
+
+.button-right {
+    background-color: lightcoral;
+    border-top-right-radius: 2in;
+    border-bottom-right-radius: 2in;
+    text-decoration: none;
+    padding: 4px;
+}
+
+.form h2 {
+    margin: 80px;
+    align-self: auto;
+}
+
+
+
+label {
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+input {
+    border: none;
+    width: 100%;
+    
+}
+
+fieldset {
+    border: none;
+  
+   
+}
+
+.button-left2 {
+    border-radius: 2in;
+    text-decoration: none;
+    margin-right:6px;
+    padding:0 20px 0 20px;
+    background-color: gray;
+    
+}
+
+.check {
+    width: auto;
+  
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

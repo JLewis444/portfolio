@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+html * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background: white;
+    padding: 50px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    font-weight: 450;
+    margin-top: 0;
+}
+
+h2 {
+    font-weight: 450;
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+a.button {
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    padding: 7px;
+}
+
+a.button img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+
+header {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+
+header img {
+    position: relative;
+    float: left;
+    height: 100px;
+    margin-top: 15px;
+}
+nav {
+    position: relative;
+    float: right;
+    font-size: 20px;
+    margin-left: 2px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+nav a {
+    color: #000;
+}
+
+nav img {
+    height: 30px;
+    position: relative;
+    top: 10px;
+}
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.intro-text {
+    width: 60%;
+    margin: 50px;
+    padding: 50px 0;
+}
+
+.intro-text p {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+article {
+    position: relative;
+    float: left;
+    width: 32%;
+    height: 600px;
+    margin-right: 2px;
+    padding: 30px;
+    background-image: url(https://whyd.com/assets/home_context_second-4a930b3e85b9a81ba1abd05f666a67aff73cf2940e695e999240da17c583f3a3.jpg);
+    
+}
+
+.article-section {
+    padding-bottom: 20px;
+}
+.article-1{
+    background-position: right top;
+}
+
+.article-2 {
+    
+    background-position: left bottom;
+}
+
+.article-3 {
+    background-position: center;
+}
+
+article h2 {
+    text-shadow: 0 0 20px #000;
+    line-height: 1.6;
+    color: #fff;
+}
+
+article img {
+    background: #fff;
+    border-radius: 50%;
+    height: 20px;
+    padding: 5px;
+    box-shadow: 0 0 0px 5px rgba(255, 255, 255, .25);
+    position: absolute;
+    bottom: 30px;
+}
+
+
+
+

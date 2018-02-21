@@ -1,0 +1,135 @@
+
+body{
+    background-color: skyblue;
+}
+section{
+    margin-left: 340px;
+    
+}
+.cards{
+    width: 250px;
+    position: absolute;
+    padding: 10px;
+}
+.card1{
+    background-color:#ffff66;
+    z-index:1;
+    margin: 100px 10px 0 500px; 
+}
+.card2{
+    background-color:#b1dbed;
+    z-index: 0;
+    margin: 206px 1px 20px 350px;
+}
+.insidecard{
+    display: block;
+    border: 1px black solid;
+    
+}
+img{
+    width: 15px;
+    height: 15px;
+    padding: 5px;       
+}
+h2{
+    color: darkgoldenrod;
+    padding-left: 20px;
+    padding-bottom: 210px;
+    font-size: 20px;
+    
+}
+h5{
+    color:darkgoldenrod;
+}
+p{
+    color: darkgoldenrod;
+}
+
+.boxes{
+    height: 30px;
+    border-top: 1px black solid;
+    float: left;
+    }
+.box1{
+    width: 20%;
+}
+.box2{
+    width: 60%;
+}
+.box3{
+    width: 20%;body{
+        background-color: lightpink;
+    }
+    section{
+        margin-left: 340px;
+        
+    }
+    .cards{
+        width: 250px;
+        position: absolute;
+        padding: 10px;
+    }
+    .card1{
+        background-color:#ffff66;
+        z-index:1;
+        margin: 100px 10px 0 500px; 
+    }
+    .card2{
+        background-color:#b1dbed;
+        z-index: 0;
+        margin: 206px 1px 20px 350px;
+    }
+    .insidecard{
+        display: block;
+        border: 1px black solid;
+        
+    }
+    img{
+        width: 15px;
+        height: 15px;
+        padding: 5px;       
+    }
+    h2{
+        color: darkgoldenrod;
+        padding-left: 20px;
+        padding-bottom: 210px;
+        font-size: 20px;
+    }
+    h5{
+        color:darkgoldenrod;
+    }
+    p{
+        color: darkgoldenrod;
+    }
+    
+    .boxes{
+        height: 30px;
+        border-top:2px black solid;
+        float: left;
+        }
+    .box1{
+        width: 20%;
+    }
+    .box2{
+        width: 60%;
+    }
+    .box3{
+        width: 20%;
+    }
+    
+}
+.clearfix:after{
+  clear:both;
+  content: "";
+  display: block;
+}
+.time::before {
+	content: "";
+	display: block;
+	position: relative;
+	top: -5px;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background: red;
+}
